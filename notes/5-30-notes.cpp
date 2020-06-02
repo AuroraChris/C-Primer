@@ -12,7 +12,7 @@
 // 每个加法运算符（+）的两侧的运算对象至少有一个是string
 
 // 在C++里string类型其实就是C语言里的 const char*，因此对string进行
-// 索引操作得到的就是 &char。切记，没有空字符 '' 这个东西
+// 索引操作得到的就是 &char。空字符即 '\0'
 
 /**
  * 在使用范围for循环，即 for (declaration: expression)时不能改变expression
